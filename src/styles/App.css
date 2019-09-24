@@ -73,9 +73,12 @@ h4, h2{
   color: black;
 }
 
-h5, .footer-text{
-  text-align: center;
+h5{
   color: black !important;
+}
+ .footer-text{
+  text-align: center;
+  color: white !important;
 }
 #sliderimg{
   filter: brightness(0.6);
@@ -388,6 +391,12 @@ width:420px;
   }
   .center{
     text-align: center;
+  }
+  .txt{
+    text-align:center;
+  }
+  .footer-text{
+    text-align:center;
   }
 }
 
