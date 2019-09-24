@@ -334,6 +334,10 @@ media query begins here */
 
 }
 @media(max-width:600px){
+  .Service{
+    align-items: center;
+    text-align: center;
+  }
   .general-container{
     overflow-x:hidden;
   }
@@ -394,8 +398,13 @@ width:420px;
   }
   .txt{
     text-align:center;
+    align-items: center;
   }
   .footer-text{
+    text-align:center;
+  }
+
+  #project{
     text-align:center;
   }
 }
